@@ -1,0 +1,64 @@
+body {
+    background-color: #f0e8d9; /* Cor de fundo que complementa o pergaminho */
+    font-family: 'Times New Roman', Times, serif; /* Fonte clássica para o tema */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha no topo */
+    min-height: 100vh;
+    background-image: url('https://www.transparenttextures.com/patterns/old-wall.png'); /* Textura sutil para o fundo */
+}
+
+.parchment {
+    width: 80%;
+    max-width: 800px; /* Largura máxima para legibilidade */
+    background-color: #fcf5e5; /* Cor principal do pergaminho */
+    border: 20px solid #d4b996; /* Borda robusta para imitar um pergaminho antigo */
+    border-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cstyle%3Epath%7Bfill%3Anone%3Bstroke%3A%238c6f4c%3Bstroke-width%3A2%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3B%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M2%202%20q48%20-2%2096%200%20M98%202%20q2%2048%200%2096%20M98%2098%20q-48%202%20-96%200%20M2%2098%20q-2%20-48%200%20-96%22%2F%3E%3C%2Fsvg%3E') 20 round;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    padding: 40px;
+    margin-top: 50px; /* Espaço do topo */
+    text-align: center;
+    color: #4a3c2a; /* Cor do texto */
+}
+
+.content h1 {
+    font-size: 2.5em; /* Tamanho do título */
+    color: #8b4513; /* Cor marrom escuro para o título */
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+    margin-bottom: 15px;
+}
+
+.content em {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Seletor de Idioma */
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background-color: rgba(252, 245, 229, 0.8);
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: #8b4513;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
+}
